@@ -11,7 +11,7 @@
       <p>
         I use axios to cool the Api Rest<br />
         The API mock has been managed using mirageJs. It didn't give me 100% the expected result so I have done some helper to convert data to be more accurante with a real life Api format.
-        mirageJs is compatbel with differnt serializer but none of them match a real Rest Api and relationship data format.<br /><br />
+        mirageJs is compatible with different serializer but none of them match a real Rest Api and relationship data format.<br /><br />
         I am using Vuex as a store to prevent mutiple load of data.<br />
         For the design I used vuetify as required.
       </p>
@@ -80,7 +80,23 @@
           <li>Scan a product to validate it with the current order (Check to detect incorect scan), this change the product and the order status</li>
           <li>Attach a prodcut to a parcel (or create a new parcel if all used)</li>
           <li>View and sort a list of parcels</li>
-          <li>Flag a parcel as sent (this will change product and order status)</li>
+          <li>Flag a parcel as sent and adding a tracking code (this will change product and order status)</li>
+        </ul>
+      </p>
+
+      <h3>Issues</h3>
+      <p>
+        My main issue was to use mirageJs as a mocking framework. I have spent lost of time (3 or 4hours in total) to try to make it working as a real RestApi tool without any succes.
+      </p>
+
+      <h3>Improvement</h3>
+      <p>
+        The following imporvement can be done:
+        <ul>
+          <li>Display user address in parcel page</li>
+          <li>Display all parcel info from order detail page</li>
+          <li>Add search for orders and parcels list</li>
+          <li>View a user history for orders and parcels</li>
         </ul>
       </p>
       
