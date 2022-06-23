@@ -86,12 +86,12 @@
 
       <h3>Issues</h3>
       <p>
-        My main issue was to use mirageJs as a mocking framework. I have spent lost of time (3 or 4hours in total) to try to make it working as a real RestApi tool without any succes.
+        My main issue was to use mirageJs as a mocking framework. I have spent lost of time (3 or 4hours in total) to try to make it working as a real RestApi tool without any success.
       </p>
 
       <h3>Improvement</h3>
       <p>
-        The following imporvement can be done:
+        The following improvements can be done:
         <ul>
           <li>Display user address in parcel page</li>
           <li>Display all parcel info from order detail page</li>
